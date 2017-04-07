@@ -10,10 +10,10 @@ A very simple clone of Youtube - lets people search for YouTube videos quickly a
 
 ### Prerequisites
 Make sure to have the following packages installed:
-* [Git](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [NodeJS](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Yarn](https://maven.apache.org/) - Dependency Management
-* [Webpack](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Git](https://git-scm.com/) - Version Control System
+* [NodeJS](https://nodejs.org/en/) - Environment/Runtime
+* [Yarn](https://yarnpkg.com/en/) - Package Manager
+* [Webpack](https://webpack.js.org/) - Bundling Components and Assets
 
 ### Installing
 
