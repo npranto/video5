@@ -15,27 +15,27 @@ class App extends Component {
 			fetchedVideos: [],
 			currentVideo: null
 		}
-		// this.getATrendingVideo();
+		this.getATrendingVideo();
  	}
 
- 	// getATrendingVideo(){
- 	// 	YoutubeSearch({key: youtubeApiConfig.key, term: 'jimmy fallon'}, (videos) => {
-		// 	this.setState({
-		// 		fetchedVideos: videos,
-		// 		currentVideo: videos[0]
-		// 	})
-		// })
- 	// }
+ 	getATrendingVideo(){
+ 		YoutubeSearch({key: youtubeApiConfig.key, term: 'jimmy fallon'}, (videos) => {
+			this.setState({
+				fetchedVideos: videos,
+				currentVideo: videos[0]
+			})
+		})
+ 	}
 
- 	// fetchVideos(newTerm){
-		// YoutubeSearch({key: youtubeApiConfig.key, term: newTerm}, (videos) => {
-		// 	this.setState({
-		// 		fetchedVideos: videos,
-		// 		currentVideo: this.state.currentVideo
-		// 	})
-		// 	console.log(this.state.fetchedVideos);
-		// })
- 	// }
+ 	fetchVideos(newTerm){
+		YoutubeSearch({key: youtubeApiConfig.key, term: newTerm}, (videos) => {
+			this.setState({
+				fetchedVideos: videos,
+				currentVideo: this.state.currentVideo
+			})
+			console.log(this.state.fetchedVideos);
+		})
+ 	}
 
 	render(){
 		return (
