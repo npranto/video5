@@ -1,0 +1,19 @@
+.media-author{
+	margin-bottom: 0px;
+	color: gray;
+}
+.media-object{
+	width: 125px;
+	height: 95px;
+}
+.media{
+	cursor: pointer;
+	transition: 0.5s;
+	padding: 0.5em;
+}
+.media:hover{
+	background: lightgray;
+}
+.media:hover .media-author{
+	color: lightgray;
+}

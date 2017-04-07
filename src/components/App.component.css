@@ -1,0 +1,9 @@
+.app-component{
+	background: white;
+	height: auto;
+	width: 100vw;
+}
+.video-list {
+	height: 90vh;
+	overflow: auto;
+}
