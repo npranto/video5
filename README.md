@@ -3,7 +3,7 @@
 A very simple clone of Youtube - lets people search for YouTube videos quickly and efficiently 
 
 ## Getting Started
-* Quick[**DEMO**](https://github.com/npranto/video5)
+* Quick [**DEMO**](https://github.com/npranto/video5)
 * To start exploring with the codebase by installing a local version of video5, follow the steps below.
 
 
