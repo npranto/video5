@@ -54,14 +54,19 @@ const config = {
                 return module.context && module.context.indexOf('node_modules') !== -1;
             }
         }),
-        new ExtractCSS('styles.bundle.css')
-    ],
-    devServer: {
-        contentBase: path.join(__dirname, "dist"),
-        compress: true,
-        port: 8080
-    },
-    devtool: '#source-map'
+        new ExtractCSS('styles.bundle.css'),
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+        })
+    ]
 }
+
+// Add for development stage
+    // devServer: {
+    //     contentBase: path.join(__dirname, "dist"),
+    //     compress: true,
+    //     port: 8080
+    // },
+    // devtool: '#source-map'
 
 const webpackConfig = module.exports = config;
