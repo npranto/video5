@@ -3,7 +3,7 @@
 A very simple clone of Youtube - lets people search for YouTube videos quickly and efficiently 
 
 ## Getting Started
-* Quick [**DEMO**](https://github.com/npranto/video5)
+* Quick [**DEMO**](http://video5.surge.sh/)
 * To start exploring with the codebase by installing a local version of video5, follow the steps below.
 
 
@@ -45,15 +45,16 @@ yarn start
 
 ## Technologies/Dependencies
 
-* [React](https://facebook.github.io/react/) - JavaScript Library Front End
-* [Yarn](https://yarnpkg.com/en/) - Package Manager
-* [Webpack](https://webpack.js.org/) - Bundling Components and Assets
-* [Babel](https://babeljs.io/) - ES6 and React Transpiler
-* [jQuery](https://jquery.com/) - Dependency Management
-* [Lodash](https://lodash.com/) - Dependency Management
-* [Moment](https://momentjs.com/) - Dependency Management
+* [react](https://facebook.github.io/react/) - JavaScript Library Front End
+* [bootstrap](http://getbootstrap.com/) - Front End Framework
+* [yarn](https://yarnpkg.com/en/) - Package Manager
+* [webpack](https://webpack.js.org/) - Bundling Components and Assets
+* [babel](https://babeljs.io/) - ES6 and React Transpiler
+* [jquery](https://jquery.com/) - Dependency Management
+* [lodash](https://lodash.com/) - Dependency Management
+* [moment](https://momentjs.com/) - Dependency Management
 * [rimraf](https://www.npmjs.com/package/@alexbinary/rimraf) - Dependency Management
-* [Youtube-Api-Search](https://developers.google.com/youtube/v3/) - API Service
+* [youtube-api-search](https://developers.google.com/youtube/v3/) - API Service
 
 
 ## Authors
