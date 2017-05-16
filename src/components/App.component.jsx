@@ -15,7 +15,7 @@ class App extends Component {
 			fetchedVideos: [],
 			currentVideo: null
 		}
-		this.getATrendingVideo();
+		// this.getATrendingVideo();
  	}
 
  	getATrendingVideo(){

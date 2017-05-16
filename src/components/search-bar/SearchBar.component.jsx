@@ -49,7 +49,17 @@ class SearchBar extends Component{
 				      </form>
 				    </div>
 				  </div>
-				</nav>	
+				</nav>
+				<form className="hidden-sm hidden-md hidden-lg col-xs-12" role="search" onSubmit={(event)=>{this.fetchVideos(event)}}>
+					<div className="form-group">
+						<input
+							type="text"
+							className="form-control hvr-fade"
+							value={this.state.searchTerm}
+							placeholder="Search"
+							onChange={(event)=>{this.onSearchBarInputChange(event)}}/>
+					</div>
+				</form>
 			</div>
 		)
 	}

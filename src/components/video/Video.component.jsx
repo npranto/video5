@@ -31,8 +31,8 @@ const Video = (props) => {
 			</div>
 
 			<div className="page-header">
-				<h2> {props.currentVideo.snippet.title} <small>  </small></h2>
-				<h4 className="media-by"> By <span className="label label-danger"> {props.currentVideo.snippet.channelTitle} </span></h4>	
+				<h3> {props.currentVideo.snippet.title} <small>  </small></h3>
+				<h5 className="media-by"> By <span className="label label-danger"> {props.currentVideo.snippet.channelTitle} </span></h5>
 			</div>
 
 			<h5 className="media-published"> Published on <i>{moment(props.currentVideo.snippet.publishedAt).format("dddd, MMMM Do YYYY")}</i> </h5>
