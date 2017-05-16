@@ -34,8 +34,16 @@ class App extends Component {
 				currentVideo: this.state.currentVideo
 			})
 			console.log(this.state.fetchedVideos);
+			this.scrollToVideoList();
 		})
  	}
+
+    scrollToVideoList() {
+        $('html,body')
+            .animate({
+                scrollTop: $("#videoList").offset().top
+            }, 'slow');
+	}
 
 	render(){
 		return (
@@ -53,7 +61,7 @@ class App extends Component {
 							currentVideo={this.state.currentVideo}
 						/>
 					</div>
-					<div className="video-list col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div className="video-list col-xs-12 col-sm-12 col-md-4 col-lg-4" id="videoList">
 						<VideoList 
 							videos={this.state.fetchedVideos} 
 							changeCurrentVideo={ (currentVideo)=>{
