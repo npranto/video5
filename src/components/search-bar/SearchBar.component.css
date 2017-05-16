@@ -5,7 +5,14 @@
 	color: deeppink !important;
 }
 .search-input:hover{
-	width: 50vw;
-	background-color: deep;
+	/*width: 50vw;*/
+	background-color: deepskyblue;
 	color: white;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-brand{
+		width: 100%;
+		text-align: center;
+	}
 }
